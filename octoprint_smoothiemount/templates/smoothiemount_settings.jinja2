@@ -1,0 +1,11 @@
+<form class="form-horizontal">
+  <h3>Smoothieboard SD Mount Settings</h3>
+    <div class="control-group">
+        <label class="control-label">{{ _('SD Device Location') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.smoothiemount.smoothiedevice">
+        </div>
+    </div>
+  <button class="btn pull-left" data-bind="click: function() {testing() }">{{ _('Mount SD Card') }}</button>
+  <button class="btn pull-right" data-bind="click: function() { }">{{ _('Unmount SD Card') }}</button>
+</form>
